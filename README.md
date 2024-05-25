@@ -62,4 +62,4 @@ Welcome to the Game Development DevOps Test. This test is designed to evaluate y
 
 Good luck!
 
-## DeadLine : 04/06/2024
+## DeadLine : 02/06/2024
