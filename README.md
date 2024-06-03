@@ -2,20 +2,22 @@
 
 ## Introduction
 
-Welcome to the Game Development DevOps Test. This test is designed to evaluate your proficiency in setting up and managing DevOps practices tailored for game development using Google Cloud Platform (GCP), containerization, monitoring, logging, and basic security practices.
+Welcome to the Game Development DevOps Test. This test is designed to evaluate your proficiency in setting up and managing DevOps practices tailored for game development using either Google Cloud Platform (GCP) or Amazon Web Services (AWS), containerization, monitoring, logging, and basic security practices.
 
 ## Tasks
 
-### 1. CI/CD Pipeline Configuration with GCP
+### 1. CI/CD Pipeline Configuration with GCP or AWS
 
-- **Objective**: Configure a CI/CD pipeline on GCP to build and deploy an Unreal Engine game project.
+- **Objective**: Configure a CI/CD pipeline on either GCP or AWS to build and deploy an Unreal Engine game project.
 - **Instructions**:
-  1. Set up a CI/CD pipeline using Google Cloud Build.
+  1. Set up a CI/CD pipeline using Google Cloud Build or AWS CodePipeline.
   2. Clone a repository containing a sample Unreal Engine game project.
   3. Use Unreal Build Tool (UBT) to compile the game project.
-  4. Deploy the build to a GCP Compute Engine instance.
+  4. Deploy the build to a GCP Compute Engine instance or an AWS EC2 instance.
   
-- **Expected Deliverable**: A `cloudbuild.yaml` file configured to build and deploy the project.
+- **Expected Deliverable**: 
+  - A `cloudbuild.yaml` file configured to build and deploy the project on GCP, or
+  - A `buildspec.yml` file configured to build and deploy the project on AWS.
 
 ### 2. Containerization
 
@@ -28,10 +30,10 @@ Welcome to the Game Development DevOps Test. This test is designed to evaluate y
 
 ### 3. Monitoring and Logging
 
-- **Objective**: Set up basic monitoring and logging for the game server using GCP.
+- **Objective**: Set up basic monitoring and logging for the game server using GCP or AWS.
 - **Instructions**:
-  1. Use Google Cloud Monitoring to collect basic metrics (CPU, memory usage) from the game server.
-  2. Set up Google Cloud Logging to capture logs from the game server.
+  1. Use Google Cloud Monitoring or AWS CloudWatch to collect basic metrics (CPU, memory usage) from the game server.
+  2. Set up Google Cloud Logging or AWS CloudWatch Logs to capture logs from the game server.
   
 - **Expected Deliverable**: Documentation or configuration files showing the setup for monitoring and logging.
 
@@ -62,4 +64,6 @@ Welcome to the Game Development DevOps Test. This test is designed to evaluate y
 
 Good luck!
 
-## DeadLine : 02/06/2024
+## Deadline
+
+Submission Deadline: 06/06/2024
