@@ -140,4 +140,4 @@ Good luck!
 
 ## Deadline
 
-Submission Deadline: 06/06/2024
+Submission Deadline: 15/06/2024
