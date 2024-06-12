@@ -77,4 +77,9 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - aws s3 sync . s3://my
+      - aws s3 sync . s3://my-game-ci-artifacts/build --exclude ".git/*" --exclude "node_modules/*"
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build
