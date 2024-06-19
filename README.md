@@ -79,7 +79,7 @@ If you do not have access to these environments, please reach out to us for setu
 
 ## Deadline
 
-Submission Deadline: 15/06/2024
+Submission Deadline: 25/06/2024
 
 Good luck!
 
