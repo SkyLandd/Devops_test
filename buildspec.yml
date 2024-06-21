@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies..."
+      - # Replace with commands to install dependencies for your game project (e.g., npm install)
+
+  build:
+    commands:
+      - echo "Building project..."
+      - # Replace with commands to build your game project (e.g., npm run build)
+
+  post_build:
+    commands:
+      - echo "Build completed successfully."
+      - # Optional: Copy built artifacts to output location for deployment stage
