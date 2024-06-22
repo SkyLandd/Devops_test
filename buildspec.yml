@@ -2,6 +2,9 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 14
+  pre_build:
     commands:
       - echo "Installing dependencies..."
       - # Replace with commands to install dependencies for your game project (e.g., npm install)
