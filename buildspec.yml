@@ -4,6 +4,10 @@ phases:
   install:
     runtime-versions:
       nodejs: 14
+    commands:
+      - curl -o sonar-scanner-cli.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-linux.zip
+      - unzip sonar-scanner-cli.zip
+      - export PATH=$PATH:./sonar-scanner-4.6.2.2472-linux/bin
   pre_build:
     commands:
       - echo "Installing dependencies..."
@@ -23,3 +27,6 @@ phases:
       - aws gamelift upload-build --name "MyGameBuild" --build-root . --operating-system AMAZON_LINUX
       - echo "Build completed successfully."
       - # Optional: Copy built artifacts to output location for deployment stage
+artifacts:
+  files:
+    - '**/*'
