@@ -17,5 +17,6 @@ phases:
 
   post_build:
     commands:
+      - aws gamelift upload-build --name "MyGameBuild" --build-root . --operating-system AMAZON_LINUX
       - echo "Build completed successfully."
       - # Optional: Copy built artifacts to output location for deployment stage
