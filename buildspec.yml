@@ -5,14 +5,14 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - # Replace with commands to install dependencies for your game project (e.g., npm install)
-      - #cd Content/Scripts
+      - cd Content/Scripts
       - npm install --save
   
   build:
     commands:
       - echo "Building project..."
       - # Replace with commands to build your game project (e.g., npm run build)
-      - #cd Content/Scripts
+      - cd Content/Scripts
       - npm run build
 
   post_build:
