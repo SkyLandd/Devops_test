@@ -5,13 +5,13 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - # Replace with commands to install dependencies for your game project (e.g., npm install)
-- npm install 
+      - npm install 
   
   build:
     commands:
       - echo "Building project..."
       - # Replace with commands to build your game project (e.g., npm run build)
-- npm run build
+      - npm run build
 
   post_build:
     commands:
