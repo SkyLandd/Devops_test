@@ -12,7 +12,7 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - # Replace with commands to install dependencies for your game project (e.g., npm install)
-      - sudo apt install docker
+      - #sudo apt install docker
       - cd Content/Scripts
       - npm install --save
   
